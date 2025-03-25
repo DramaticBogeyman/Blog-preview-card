@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+.cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 25px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+.illus {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.title {
+    align-items: left;
+    font-weight: 700;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.pub {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.desc {
+    font-size: 16px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar {
+    
+    width: 40px;
+    height: 40px;
+}
+
+.author {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
